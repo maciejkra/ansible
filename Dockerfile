@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:16.04
 RUN \
 	apt-get update && \
 	apt-get install --no-install-recommends -y software-properties-common && \
